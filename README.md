@@ -12,7 +12,7 @@ Welcome to my portfolio! Below you'll find a collection of my projects, showcasi
 
 ## **Completed Projects**
 ### [Anti-Gambling Website](https://github.com/jinzalabim/OTHER-PROJECTS/tree/main/Anti-Gambling%20Website) 
-<img src="images/1.png" alt="Anti-Gambling Website" width="200" style="float: left; margin-right: 15px;"> 
+<img src="images/1.png" alt="Anti-Gambling Website" width="200" style="float: left; margin-right: 15px;"> </img>
 Created a **demo website** as part of my final assignment for the **Cyberspace, Organizations, and Communities (OSDCYOC A52)** class. The site simulates an online casino experience to highlight the **risks** and **ethical concerns** of online gambling. After engaging with casino-style games, users are redirected to an informational page detailing the dangers of **gambling addiction**, **online casino risks**, and available resources for help. The website was deployed on **Vercel** and features interactive game iframes from **PragmaticPlay**.
 
 
