@@ -57,7 +57,7 @@ Currently working on an **AO3 recommender system** using **machine learning** in
 ## Skills & Technologies
 
 - **Programming Languages:** Python, JavaScript, HTML, CSS
-- **Libraries/Frameworks:** pandas, numpy, scikit-learn, matplotlib, plotly, selenium, Flask, PragmaticPlay (iFrame integration)
+- **Libraries/Frameworks:** pandas, numpy, scikit-learn, matplotlib, plotly, selenium, Flask, iFrame integration
 - **Machine Learning Techniques:** Random Forest, Gradient Boosting, LIME, SHAP, Partial Dependence Plots (PDP)
 - **Web Development:** HTML, CSS, JavaScript, Vercel Deployment
 - **Data Science:** Data Manipulation, Data Visualization, Model Explainability, Model Evaluation
