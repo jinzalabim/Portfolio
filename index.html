@@ -270,17 +270,54 @@ You may access the site by clicking this link: <a href="https://antigambling-dem
     </div><br>
     <p>Let's get in touch. Send me a message:</p>
 
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
+  <form id="contactForm">
+  <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+  <p><input class="w3-input w3-padding-16" type="email" placeholder="Email" required name="Email"></p>
+  <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+  <p><textarea class="w3-input w3-padding-16" placeholder="Message" required name="Message"></textarea></p>
+  <p>
+    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+      <i class="fa fa-paper-plane"></i> SEND MESSAGE
+    </button>
+  </p>
+</form>
+<div id="status"></div>
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  // Initialize EmailJS with your public key
+  emailjs.init("your_public_key"); // Replace with your actual public key from EmailJS
+
+  // Handle form submission
+  document.getElementById("contactForm").addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent default form submission behavior
+
+    // Collect form data
+    const formData = new FormData(event.target);
+    const data = {
+      Name: formData.get("Name"),
+      Email: formData.get("Email"),
+      Subject: formData.get("Subject"),
+      Message: formData.get("Message"),
+    };
+
+    // Display status message
+    const status = document.getElementById("status");
+    status.className = ""; // Reset status class
+    status.textContent = "Sending message...";
+
+    // Send email via EmailJS
+    emailjs.send("service_fy3pzhz", "your_template_id", data)
+      .then(() => {
+        status.textContent = "Message sent successfully!";
+      })
+      .catch((error) => {
+        status.textContent = "Failed to send message. Please try again.";
+        status.className = "error";
+        console.error("EmailJS Error:", error);
+      });
+  });
+</script>
   <!-- End Contact Section -->
   </div>
   
