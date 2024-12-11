@@ -286,7 +286,7 @@ You may access the site by clicking this link: <a href="https://antigambling-dem
 <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script>
   // Initialize EmailJS with your public key
-  emailjs.init("your_public_key"); // Replace with your actual public key from EmailJS
+  emailjs.init("agJV2r6ru123MJZWl"); // Replace with your actual public key from EmailJS
 
   // Handle form submission
   document.getElementById("contactForm").addEventListener("submit", function (event) {
@@ -307,7 +307,7 @@ You may access the site by clicking this link: <a href="https://antigambling-dem
     status.textContent = "Sending message...";
 
     // Send email via EmailJS
-    emailjs.send("service_fy3pzhz", "your_template_id", data)
+    emailjs.send("service_fy3pzhz", "template_v4wehrr", data)
       .then(() => {
         status.textContent = "Message sent successfully!";
       })
