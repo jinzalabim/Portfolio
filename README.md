@@ -42,12 +42,12 @@ Developed as part of my **DATA103** class, this **Python refresher** notebook is
 
 This project uses **Random Forest Classifiers** to predict the most probable winning numbers for a lottery based on historical draw data. The system analyzes features such as **month**, **day**, and **day of the week** from past draws, and it updates dynamically as new results are added. While the model provides insights into potential patterns, predicting lottery outcomes is inherently random. This project demonstrates the application of machine learning in predicting outcomes based on historical trends.
 
+### **Credit Scoring Project**
+Currently finalizing a **credit scoring project** involving a comprehensive machine learning workflow. The project includes **data preparation**, **model training**, and **evaluation** using a variety of techniques. The goal is to predict **creditworthiness** based on a dataset with 150,000 entries, incorporating both **categorical** and **numerical** data. The project emphasizes **model performance interpretation**, **feature selection**, and the application of techniques like **hyperparameter tuning** and **cross-validation** to ensure accurate and reliable predictions.
+
 ---
 
 ## **Current Projects**
-
-### **Credit Scoring Project**
-Currently finalizing a **credit scoring project** involving a comprehensive machine learning workflow. The project includes **data preparation**, **model training**, and **evaluation** using a variety of techniques. The goal is to predict **creditworthiness** based on a dataset with 150,000 entries, incorporating both **categorical** and **numerical** data. The project emphasizes **model performance interpretation**, **feature selection**, and the application of techniques like **hyperparameter tuning** and **cross-validation** to ensure accurate and reliable predictions.
 
 ### **AO3 Recommender System**
 Currently working on an **AO3 recommender system** using **machine learning** in my free time. The project involves developing a **hybrid filtering method** to recommend **fanfiction** based on user preferences and behaviors. It includes tasks like **data preprocessing**, **model training**, and fine-tuning the algorithm for optimal recommendations on **archiveofourown.org**.
