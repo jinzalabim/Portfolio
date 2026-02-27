@@ -2,11 +2,6 @@
 
 Welcome to my portfolio! Below you'll find a collection of my projects, showcasing my skills in machine learning, Python programming, web development, and ethical considerations in technology. Feel free to explore the repositories linked below.
 
-* My non-Data Science portfolio: [https://bit.ly/ASJin-Portfolio](https://bit.ly/ASJin-Portfolio)
-
-* LinkedIn: [https://www.linkedin.com/in/aubrei-gould-siababa-92b921291/](https://www.linkedin.com/in/aubrei-gould-siababa-92b921291//)
-
-
 ---
 
 ## **Completed Projects**
