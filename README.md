@@ -5,7 +5,6 @@ Welcome to my portfolio! Below you'll find a collection of my projects, showcasi
 * My non-Data Science portfolio: [https://bit.ly/Jin-Portfolio-AS](https://bit.ly/Jin-Portfolio-AS)
 
 * LinkedIn: [https://www.linkedin.com/in/aubrei-gould-siababa-92b921291/](https://www.linkedin.com/in/aubrei-gould-siababa-92b921291//)
-* Email: [aubreisiababa@gmail.com](mailto:aubreisiababa@gmail.com)
 
 
 ---
